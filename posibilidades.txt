@@ -1,0 +1,21 @@
+PROYECTO:
+
+
+metodología a utilizar: INCREMENTAL
+
+tecnologías a utilizar:
+
+Base de Datos:
+PostgreSQL
+PlpgSQL
+
+lenguajes de programación (BackEnd):
+php,
+javascript
+jquery [framework de javascript]
+
+lenguajes de programación (FrontEnd):
+html
+css
+bootstrap [framework de css]
+
