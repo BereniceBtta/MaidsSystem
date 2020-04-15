@@ -95,4 +95,18 @@ form{
 	width: 60%;
 }
 
+#opcionesServicio{
+	align-items: center;
+
+}
+
+.opcionServicio{
+	text-align: justify;
+	background-color: blueviolet;
+}
+
+.opcionServicio:hover{
+	background-color: rgb(68, 57, 78);
+}
+
 /*página de registro*/

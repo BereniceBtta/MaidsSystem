@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="action.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Registro</title>
 </head>
@@ -13,14 +14,24 @@
         <h6>CURP:</h6> <input type="text" id="num" required>
         <h6>Sexo:</h6> <input type="radio" name="sexo" id="m" >Mujer <input type="radio" name="sexo" id="h">Hombre
         <p id="result"></p>
-        <h6>Carreras:</h6> <select name="carreras" id="carreras">
-            <option value="0">Selecciona</option>
-            <option value="1">Ing. Sistemas Computacionales</option>
-            <option value="2">Ing. Electrónica </option>
-            <option value="3">Ing. Gestión Empresarial </option>
-            <option value="4">Ing. Química</option>
-        </select>
-        <p id="result2"></p>
+        <h6>Selecciona los servicios que puedas realizar: (cada uno tiene un costo diferente) </h6>
+        <div id="opcionesServicio">
+        <input type="radio" class="opcionServicio" name="lavarRopa" id="ropa" >
+        <label for="ropa">Lavado y planchado de ropa</label>
+        <input type="radio" class="opcionServicio" name="cuidarnino" id="ninos" >
+        <label for="ninos">Cuidado niños (esto incluye ir por ellos a la escuela)</label>
+        <br>
+        <input type="radio" class="opcionServicio" name="comida" id="comidas" >
+        <label for="comidas">Preparación de alimentos</label>
+        <input type="radio" class="opcionServicio" name="barrer" id="trapear" > 
+        <label for="trapear" >Aseo de la casa </label>
+        <br>
+        <input type="radio" class="opcionServicio" name="muebles" id="mueble" >
+        <label for="mueble" >Limpiar Muebles </label>
+        <input type="radio" class="opcionServicio" name="tutoria" id="tuto" >
+        <label for="tuto" >Tutoría infantil </label>    
+    </div>
+
         <h6>Correo Electrónico:</h6> <input type="text" id="correo">
         <br>
         <br>
