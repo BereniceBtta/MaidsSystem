@@ -1,0 +1,98 @@
+/*página principal*/
+.barra-nav{
+	width: 80em;
+	height: 4em;
+	padding-bottom: 10px;
+	border: 5px solid red;
+	
+}
+
+#barra-opcion,#opcion,#opcionImg{
+	display: table-cell;
+	margin-bottom: 7em;
+}
+
+#barra-opcion{
+	text-align: left;
+}
+
+#opcionImg{
+	margin-bottom: 2em;
+	width: 5em ;
+	height: 2.6em ;
+}
+
+#opcion{
+	width: 5em ;
+	height: 1.5em ;
+}
+
+.btnopcion{
+	align-items: center;
+	text-align: inherit;
+	border-radius: 0.5em;
+}
+
+.btnopcion:hover{
+	background: red;
+	border-radius: 0.5em;
+	border-left: 1em;
+}
+
+#btnregistro{
+	border: 2px solid grey;
+	background-color: burlywood;
+	text-decoration: none;
+}
+
+.img{
+	text-align: left;
+	border: 1em solid blue;
+}
+
+.parrafo{
+	text-align: center;
+}
+
+#contenido{
+	align-items: center;
+}
+
+.tabla-contenido{
+	border-color: red;
+}
+
+#celda{
+	width: 15em;
+	height: 20em;
+/*	display: block; se alinean
+ en vertical*/
+}
+
+#imgtrabajadora{
+/*	align-items: center;
+	text-align: center;
+	width: 4.5em ;*/
+	display: block;
+	width: 2em;
+	height: 2em;
+	
+}
+
+#botontrabajadora{
+	display: block;
+	align-content: center;
+	height: 1.5em;
+	border-radius: 0.5em;
+}
+
+/*página principal*/
+
+/*página de registro*/
+form{
+	text-align: center;
+	border: 5px solid blue;
+	width: 60%;
+}
+
+/*página de registro*/

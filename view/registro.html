@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <h6>Nombre:</h6> <input type="text" id="nomb" required>
+        <h6>Apellidos:</h6> <input type="text" id="nomb" required>
+        <h6>CURP:</h6> <input type="text" id="num" required>
+        <h6>Sexo:</h6> <input type="radio" name="sexo" id="m" >Mujer <input type="radio" name="sexo" id="h">Hombre
+        <p id="result"></p>
+        <h6>Carreras:</h6> <select name="carreras" id="carreras">
+            <option value="0">Selecciona</option>
+            <option value="1">Ing. Sistemas Computacionales</option>
+            <option value="2">Ing. Electrónica </option>
+            <option value="3">Ing. Gestión Empresarial </option>
+            <option value="4">Ing. Química</option>
+        </select>
+        <p id="result2"></p>
+        <h6>Correo Electrónico:</h6> <input type="text" id="correo">
+        <br>
+        <br>
+        <input type="button" value="Cancelar" onclick="cancelar()">  <input type="button" value="Aceptar" onclick="comprobar()">
+    
+        </form>
+    
+</body>
+</html>
